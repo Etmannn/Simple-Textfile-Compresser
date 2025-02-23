@@ -82,7 +82,7 @@ def main():
       print(f'file successfully extracted as {newfile}\n')
 
     elif select == 3:
-      break
+      exit()
 
     else:
       print('invalid input\n')
