@@ -11,7 +11,7 @@ def compress(file: str, encoding: str) -> str:
   multiplier: int = 1
 
   # groups characters together into tuples which are then appended into a list
-  for n in range(len(data)):
+  for n in range(len(data)-1):
     # checks if the next character is equal to the current one
     if data[n] == data[n+1]:
       # adds one to the multiplier
